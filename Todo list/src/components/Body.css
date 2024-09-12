@@ -1,0 +1,236 @@
+*{font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+.bodycontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 30rem;
+    overflow-y: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #23140a black;
+    
+    width: 40%;
+    
+    
+   
+    border-radius: 30px;
+    margin: 50px;
+    padding: 20px;
+    color: white;
+    box-shadow: rgba(75, 51, 51, 0.993) 1px 1px 10px 8px;
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38));
+
+}
+
+
+
+
+@media(max-width:412px){
+    .bodycontainer{
+        width: 80%;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width:767px) and (min-width:413px){
+    .bodycontainer{
+        width: 70%;
+        overflow-x: hidden;
+    }
+}
+
+@media(max-width:837px) and (min-width:768px){
+    .bodycontainer{
+        width: 70%;
+        overflow-x: hidden;
+    }
+}
+
+
+
+
+
+
+
+.bodymaincontainer{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.liststyle{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+}
+
+/*when task is completed line through the task*/
+
+.completed{
+    text-decoration-line: line-through;
+    text-decoration-color: rgba(255, 28, 168, 0.823) ;
+    text-decoration-thickness: 2px;
+    /* color:rgba(255, 28, 168, 0.823)  !important; */
+    
+}
+
+/*input of formtag*/
+
+.inputform{
+    
+    width: 250px;
+    height: 40px;
+    background-color:  white;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    color: black;
+    font-weight: 500;
+    margin-bottom: 20px;
+    border:  rgba(255, 28, 168, 0.823) solid 1px;
+}
+
+
+
+
+
+
+@media(max-width:412px){
+    .inputform{
+        width: 170px;
+       
+    }
+}
+
+@media(max-width:767px) and (min-width:413px){
+    .inputform{
+        width: 200px;
+       
+    }
+}
+
+@media(max-width:837px) and (min-width:768px){
+    .inputform{
+        width: 250px;
+        
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+.addtotobutton{
+    
+   
+    color:  rgba(255, 28, 168, 0.823);
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38));
+    height: 40px;
+    width: 40px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;  
+}
+.addtotobutton:hover{
+    scale: 1.10;
+    transition-duration: 0.200s;
+}
+
+
+/* todoitem input style*/
+.inputitem1{
+    width: 235px;
+    height: 30px;
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38)); 
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    padding: 5px;
+    margin-top: 5px;
+    color: white;
+    font-weight: 500;
+   
+}
+
+@media(max-width:412px){
+    .inputitem1{
+        width: 150px;
+       
+    }
+}
+
+@media(max-width:767px) and (min-width:413px){
+    .inputitem1{
+        width: 180px;
+       
+    }
+}
+
+@media(max-width:837px) and (min-width:768px){
+    .inputitem1{
+        width: 230px;
+       
+    }
+}
+
+
+
+
+
+.deletebutton{
+    height: 30px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: red;
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38));
+}
+
+.deletebutton:hover{
+    scale: 1.10;
+    transition-duration: 0.200s;
+}
+
+
+
+
+.editbutton{
+
+    height: 30px;
+    width:20px;
+    position: relative;
+    top: 5px;
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38));
+    color: rgb(145, 156, 73);
+}
+
+.editbutton:hover{
+    scale: 1.10;
+    transition-duration: 0.200s;
+}
+
+
+
+.completedbutton{
+
+    height: 30px;
+    width: 20px;
+    position: relative;
+    top: 5px;
+    color: rgb(0, 255, 85);
+    background-image: linear-gradient(to right , black,rgb(44, 38, 38));
+}
+
+.completedbutton:hover{
+    scale: 1.10;
+    transition-duration: 0.200s;
+}
+
+
